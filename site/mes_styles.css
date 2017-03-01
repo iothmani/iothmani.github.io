@@ -792,16 +792,16 @@ border: solid 10px; color: #fff;
 }
 @media screen and (max-width:500px) {
 	header{
-		width:450px;
+		width:500px;
 		height:100px;
-		margin:auto;
+margin: auto;
 	}
 	#nom{
 		padding-top:30px;
 		font-size: 40px;
 	}
 	#wrapper{
-		width:220px;
+		width:300px;
 		height:auto;
 		margin:auto;
 	}
@@ -812,13 +812,14 @@ border: solid 10px; color: #fff;
 		display: block;
 		margin-top: -100px;
 		position:relative;
+		font-size: 30px;
 	}
 	aside {
-		width:200px;
-		height:70px;
-				position:fixed;
+		width:100px;
+		height:60px;
+		position:fixed;
 		top:0px;
-		left: -290px;
+		left: -620px;
 	}
 	.ines{margin-top: 200px;}
 	#texte{
@@ -903,7 +904,7 @@ border: solid 10px; color: #fff;
 	font-family:'Open Sans', sans-serif;
 	}
 #back{
-	width:450px;
+	width:500px;
 	height:100px;
 	margin-right:auto;
 	margin-left:auto;
