@@ -17,7 +17,13 @@
 margin: auto;
 top: -120px;
   position: relative;
+
     animation: car 6s 0 infinite;
+
+}
+.voiture2{
+    transform-origin: 160% 80px;
+  animation: bound 1s 0 infinite;
 }
 #roue{
   margin-left: 10px;
@@ -51,6 +57,11 @@ transform-origin: 50% 50%;
 50%{background-color:#1451ed;animation-timing-function: linear;}
   100%{background-color: #000;animation-timing-function: ease;}
 }
+@keyframes bound{
+  0%{transform: rotate(0deg);animation-timing-function: ease-in-out;}
+  50%{transform: rotate(4deg);animation-timing-function: ease-in-out;}
+    100%{transform: rotate(0deg);}
+}
 
 
 </style>
@@ -58,7 +69,7 @@ transform-origin: 50% 50%;
 <body>
   <img id="fond" src="background.png">
   <div id="voiture">
-  <img src="car.png">
+  <img class="voiture2"src="car.png">
 <div id="roue">
 <img class="roue1" src="roue.png">
   <img class="roue2" src="roue-2.png">
