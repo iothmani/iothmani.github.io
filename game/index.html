@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <title>Game</title>
 
@@ -292,28 +291,33 @@
 </div>
 
 <script>
+var player = 1;
+
+
 function test(toto){
   var myId = toto.id;
   var type = myId.substring(0, 1);
   var index = Number(myId.substring(1, myId.length));
 
+
   var index1 = index-9;
   var index2 = index-(9+1);
   var index3 = index-(2*9+1);
 
-toto.className = "totohs";
+
+toto.className = "totohs"+player;
+
+
 
   if(index2>0){
   var e1 = document.getElementById("v"+index1);
   var e2 = document.getElementById("v"+index2);
   var e3 = document.getElementById("h"+index3);
 
-if(e1.className == "totovs" && e2.className == "totovs" && e3.className == "totohs"){
-
-  document.getElementById("G"+index3).className = "Gs";
+if(e1.className != "totov" && e2.className != "totov" && e3.className != "totoh"){
+  document.getElementById("G"+index3).className = "Gs"+player;
 }
 else{
-
 }
 
 }
@@ -328,13 +332,13 @@ else{
   var e5 = document.getElementById("v"+index5);
   var e6 = document.getElementById("h"+index6);
 
-if(e4.className == "totovs" && e5.className == "totovs" && e6.className == "totohs"){
+if(e4.className != "totov" && e5.className != "totov" && e6.className != "totoh"){
 
-  document.getElementById("G"+index).className = "Gs";
+  document.getElementById("G"+index).className = "Gs"+player;
 }else{
 
 }
-
+nextPlayer();
   }
 
 //alert("A tester: "+"H"+index +"V" + index1 + "V"+index2+ "H" +index3 +"V"+ index4 +"V"+index5+"H"+index6);
@@ -344,7 +348,10 @@ function test2(toto2){
   var myId = toto2.id;
   var type = myId.substring(0, 1);
   var indexV = Number(myId.substring(1, myId.length));
-toto2.className = "totovs";
+
+
+toto2.className = "totovs"+player;
+
 
 
   var indexV1 =indexV-(9+1);
@@ -360,8 +367,8 @@ toto2.className = "totovs";
 
 
 
-if(ev1.className == "totohs" && ev2.className == "totovs" && ev3.className == "totohs"){
-document.getElementById("G"+indexV1).className = "Gs";
+if(ev1.className != "totoh" && ev2.className != "totov" && ev3.className != "totoh"){
+document.getElementById("G"+indexV1).className = "Gs"+player;
 }else{
 
 }
@@ -376,14 +383,17 @@ document.getElementById("G"+indexV1).className = "Gs";
   var ev5 = document.getElementById("v"+indexV5);
   var ev6 = document.getElementById("h"+indexV6);
 
-if(ev4.className == "totohs" && ev5.className == "totovs" && ev6.className == "totohs"){
-document.getElementById("G"+indexV4).className = "Gs";
+if(ev4.className != "totoh" && ev5.className != "totov" && ev6.className != "totoh"){
+document.getElementById("G"+indexV4).className = "Gs"+player;
 }else{
-
 }
-  }
-
+}
+  nextPlayer();
 //alert("A tester: "+"V"+indexV +"H" + indexV1 + "V"+indexV2+ "H" +indexV3 +"H"+ indexV4 +"V"+indexV5+"H"+indexV6);
+}
+
+function nextPlayer(){
+  player = 3 - player;
 }
 </script>
 </body>

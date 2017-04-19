@@ -273,8 +273,11 @@ margin-left: 280px;
 .Gnormal{
 
 }
-.Gs{
+.Gs1{
   background-image: url(x1.png);
+}
+.Gs2{
+  background-image: url(x2.png);
 }
 .horiz1{
 margin-top: 10px;
@@ -294,6 +297,18 @@ height:10px;}
 }
 
 .totohs{
+  width:80px;
+  height:10px;
+  margin-top: -10px;
+  background-color: #B70000;
+}
+.totohs1{
+  width:80px;
+  height:10px;
+  margin-top: -10px;
+  background-color: #000;
+}
+.totohs2{
   width:80px;
   height:10px;
   margin-top: -10px;
@@ -415,6 +430,18 @@ height:10px;}
 
 
 .totovs{
+  width:10px;
+  height:80px;
+  margin-top: -80px;
+  background-color: #B70000;
+}
+.totovs1{
+  width:10px;
+  height:80px;
+  margin-top: -80px;
+  background-color: #000;
+}
+.totovs2{
   width:10px;
   height:80px;
   margin-top: -80px;
