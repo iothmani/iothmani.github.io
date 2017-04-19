@@ -3,967 +3,100 @@
 <head>
 <meta charset="UTF-8">
 <title>Game</title>
+
+<link rel="stylesheet" type="text/css" href="mystyles.css">
 </head>
-<style>
-.carre{
-  margin-top: 20px;
-  margin-left: 10px;
-}
-.horiz1{
-margin-top: 10px;
-height:10px;
 
-}
-
-.totoh{
-  width:80px;
-  height:10px;
-  margin-top: -10px;
-  background-color: #BCBCBC;
-}
-
-.totohs{
-  width:80px;
-  height:10px;
-  margin-top: -10px;
-  background-color: #f00;
-}
-
-#h0{
-  margin-left: 10px;
-
-}
-#h1{
-  margin-left: 100px;
-
-}
-#h2{
-  margin-left: 190px;
-
-}
-#h3{
-  margin-left: 280px;
-
-}
-#h4{
-  margin-left: 370px;
-
-}
-#h5{
-  margin-left: 460px;
-
-}
-#h6{
-  margin-left: 550px;
-
-}
-#h7{
-  margin-left: 640px;
-
-}
-#h8{
-  margin-left: 730px;
-
-}
-
-
-
-#h19{
-  margin-left: 10px;
-}
-#h20{
-  margin-left: 100px;
-
-}
-#h21{
-
-  margin-left: 190px;
-
-}
-#h22{
-
-  margin-left: 280px;
-
-}
-#h23{
-
-  margin-left: 370px;
-
-}
-#h24{
-  margin-left: 460px;
-
-}
-#h25{
-  margin-left: 550px;
-
-}
-#h26{
-  margin-left: 640px;
-
-}
-#h27{
-  margin-left: 730px;
-
-}
-
-
-#h38{
-  margin-left: 10px;
-
-}
-#h39{
-
-margin-left: 100px;
-
-}
-#h40{
-
-margin-left: 190px;
-
-}
-#h41{
-
-margin-left: 280px;
-
-}
-#h42{
-
-margin-left: 370px;
-
-}
-#h43{
-  margin-left: 460px;
-
-}
-#h44{
-  margin-left: 550px;
-
-}
-#h45{
-  margin-left: 640px;
-
-}
-#h46{
-  margin-left: 730px;
-
-}
-
-
-#h57{
-  margin-left: 10px;
-
-}
-#h58{
-
-margin-left: 100px;
-
-}
-#h59{
-
-margin-left: 190px;
-
-}
-#h60{
-
-margin-left: 280px;
-
-}
-#h61{
-
-margin-left: 370px;
-
-}
-#h62{
-  margin-left: 460px;
-
-}
-#h63{
-  margin-left: 550px;
-
-}
-#h64{
-  margin-left: 640px;
-
-}
-#h65{
-  margin-left: 730px;
-
-}
-
-
-#h76{
-  margin-left: 10px;
-
-}
-#h77{
-
-margin-left: 100px;
-
-}
-#h78{
-
-margin-left: 190px;
-
-}
-#h79{
-
-margin-left: 280px;
-
-}
-#h80{
-
-margin-left: 370px;
-
-}
-#h81{
-  margin-left: 460px;
-
-}
-#h82{
-  margin-left: 550px;
-
-}
-#h83{
-  margin-left: 640px;
-
-}
-#h84{
-  margin-left: 730px;
-
-}
-
-
-#h95{
-  margin-left: 10px;
-
-}
-#h96{
-
-margin-left: 100px;
-
-}
-#h97{
-
-margin-left: 190px;
-
-}
-#h98{
-
-margin-left: 280px;
-
-}
-#h99{
-
-margin-left: 370px;
-
-}
-#h100{
-  margin-left: 460px;
-
-}
-#h101{
-  margin-left: 550px;
-
-}
-#h102{
-  margin-left: 640px;
-
-}
-#h103{
-  margin-left: 730px;
-
-}
-
-
-#h114{
-  margin-left: 10px;
-
-}
-#h115{
-
-margin-left: 100px;
-
-}
-#h116{
-
-margin-left: 190px;
-
-}
-#h117{
-
-margin-left: 280px;
-
-}
-#h118{
-
-margin-left: 370px;
-
-}
-#h119{
-  margin-left: 460px;
-
-}
-#h120{
-  margin-left: 550px;
-
-}
-#h121{
-  margin-left: 640px;
-
-}
-#h122{
-  margin-left: 730px;
-
-}
-
-
-#h133{
-  margin-left: 10px;
-
-}
-#h134{
-
-margin-left: 100px;
-
-}
-#h135{
-
-margin-left: 190px;
-
-}
-#h136{
-
-margin-left: 280px;
-
-}
-#h137{
-
-margin-left: 370px;
-
-}
-#h138{
-  margin-left: 460px;
-
-}
-#h139{
-  margin-left: 550px;
-
-}
-#h140{
-  margin-left: 640px;
-
-}
-#h141{
-  margin-left: 730px;
-
-}
-
-
-#h152{
-  margin-left: 10px;
-
-}
-#h153{
-
-margin-left: 100px;
-
-}
-#h154{
-
-margin-left: 190px;
-
-}
-#h155{
-
-margin-left: 280px;
-
-}
-#h156{
-
-margin-left: 370px;
-
-}
-#h157{
-  margin-left: 460px;
-
-}
-#h158{
-  margin-left: 550px;
-
-}
-#h159{
-  margin-left: 640px;
-
-}
-#h160{
-  margin-left: 730px;
-
-}
-
-#h171{
-  margin-left: 10px;
-
-}
-#h172{
-
-margin-left: 100px;
-
-}
-#h173{
-
-margin-left: 190px;
-
-}
-#h174{
-
-margin-left: 280px;
-
-}
-#h175{
-
-margin-left: 370px;
-
-}
-#h176{
-  margin-left: 460px;
-
-}
-#h177{
-  margin-left: 550px;
-
-}
-#h178{
-  margin-left: 640px;
-
-}
-#h179{
-  margin-left: 730px;
-
-}
-
-.vertical{
-  margin-top: 0;
-  height:80px;
-}
-
-
-.totovs{
-  width:10px;
-  height:80px;
-  margin-top: -80px;
-  background-color: #f00;
-}
-
-.totov{
-  width:10px;
-  height:80px;
-  margin-top: -80px;
-  background-color: #BCBCBC;
-}
-
-#v9{
-  margin-top:0;
-  margin-left: 0;
-}
-#v10{
-  margin-left: 90px;
-
-}
-#v11{
-  margin-left: 180px;
-
-}
-#v12{
-  margin-left: 270px;
-
-}
-#v13{
-  margin-left: 360px;
-
-}
-#v14{
-  margin-left: 450px;
-
-}
-#v15{
-  margin-left: 540px;
-
-}
-#v16{
-  margin-left: 630px;
-
-}
-#v17{
-  margin-left: 720px;
-
-}
-#v18{
-  margin-left: 810px;
-
-}
-
-
-
-
-#v28{
-  margin-top:0;
-  margin-left: 0;
-
-}
-#v29{
-
-  margin-left: 90px;
-
-}
-#v30{
-
-  margin-left: 180px;
-
-}
-#v31{
-
-  margin-left: 270px;
-
-}
-#v32{
-
-  margin-left: 360px;
-
-}
-#v33{
-
-  margin-left: 450px;
-
-}
-#v34{
-  margin-left: 540px;
-
-}
-#v35{
-  margin-left: 630px;
-
-}
-#v36{
-  margin-left: 720px;
-
-}
-#v37{
-  margin-left: 810px;
-}
-
-#v47{
-  margin-top:0;
-  margin-left: 0;
-
-}
-#v48{
-
-  margin-left: 90px;
-
-}
-#v49{
-
-  margin-left: 180px;
-
-}
-#v50{
-
-  margin-left: 270px;
-
-}
-#v51{
-
-  margin-left: 360px;
-
-}
-#v52{
-
-  margin-left: 450px;
-
-}
-
-#v53{
-  margin-left: 540px;
-
-}
-#v54{
-  margin-left: 630px;
-
-}
-#v55{
-  margin-left: 720px;
-
-}
-#v56{
-  margin-left: 810px;
-
-}
-
-#v66{
-  margin-top:0;
-  margin-left: 0;
-
-}
-#v67{
-
-  margin-left: 90px;
-
-}
-#v68{
-
-  margin-left: 180px;
-
-}
-#v69{
-
-  margin-left: 270px;
-
-}
-#v70{
-
-  margin-left: 360px;
-
-}
-#v71{
-
-  margin-left: 450px;
-}
-
-#v72{
-  margin-left: 540px;
-
-}
-#v73{
-  margin-left: 630px;
-
-}
-#v74{
-  margin-left: 720px;
-
-}
-#v75{
-  margin-left: 810px;}
-
-
-
-  #v85{
-    margin-top:0;
-    margin-left: 0;
-
-  }
-  #v86{
-
-    margin-left: 90px;
-
-  }
-  #v87{
-
-    margin-left: 180px;
-
-  }
-  #v88{
-
-    margin-left: 270px;
-
-  }
-  #v89{
-
-    margin-left: 360px;
-
-  }
-  #v90{
-
-    margin-left: 450px;
-  }
-
-  #v91{
-    margin-left: 540px;
-
-  }
-  #v92{
-    margin-left: 630px;
-
-  }
-  #v93{
-    margin-left: 720px;
-
-  }
-  #v94{
-    margin-left: 810px;}
-
-
-
-
-    #v104{
-      margin-top:0;
-      margin-left: 0;
-
-    }
-    #v105{
-
-      margin-left: 90px;
-
-    }
-    #v106{
-
-      margin-left: 180px;
-
-    }
-    #v107{
-
-      margin-left: 270px;
-
-    }
-    #v108{
-
-      margin-left: 360px;
-
-    }
-    #v109{
-
-      margin-left: 450px;
-    }
-
-    #v110{
-      margin-left: 540px;
-
-    }
-    #v111{
-      margin-left: 630px;
-
-    }
-    #v112{
-      margin-left: 720px;
-
-    }
-    #v113{
-      margin-left: 810px;}
-
-
-
-      #v123{
-        margin-top:0;
-        margin-left: 0;
-
-      }
-      #v124{
-
-        margin-left: 90px;
-
-      }
-      #v125{
-
-        margin-left: 180px;
-
-      }
-      #v126{
-
-        margin-left: 270px;
-
-      }
-      #v127{
-
-        margin-left: 360px;
-
-      }
-      #v128{
-
-        margin-left: 450px;
-      }
-
-      #v129{
-        margin-left: 540px;
-
-      }
-      #v130{
-        margin-left: 630px;
-
-      }
-      #v131{
-        margin-left: 720px;
-
-      }
-      #v132{
-        margin-left: 810px;}
-
-
-
-
-
-        #v142{
-          margin-top:0;
-          margin-left: 0;
-
-        }
-        #v143{
-
-          margin-left: 90px;
-
-        }
-        #v144{
-
-          margin-left: 180px;
-
-        }
-        #v145{
-
-          margin-left: 270px;
-
-        }
-        #v146{
-
-          margin-left: 360px;
-
-        }
-        #v147{
-
-          margin-left: 450px;
-        }
-
-        #v148{
-          margin-left: 540px;
-
-        }
-        #v149{
-          margin-left: 630px;
-
-        }
-        #v150{
-          margin-left: 720px;
-
-        }
-        #v151{
-          margin-left: 810px;}
-
-
-
-          #v161{
-            margin-top:0;
-            margin-left: 0;
-
-          }
-          #v162{
-
-            margin-left: 90px;
-
-          }
-          #v163{
-
-            margin-left: 180px;
-
-          }
-          #v164{
-
-            margin-left: 270px;
-
-          }
-          #v165{
-
-            margin-left: 360px;
-
-          }
-          #v166{
-
-            margin-left: 450px;
-          }
-
-          #v167{
-            margin-left: 540px;
-
-          }
-          #v168{
-            margin-left: 630px;
-
-          }
-          #v169{
-            margin-left: 720px;
-
-          }
-          #v170{
-            margin-left: 810px;}
-
-</style>
 <body>
   <div class="carre">
 <div class="horiz1">
-  <div id="h0" class="totoh" ></div>
-  <div id="h1" class="totoh"></div>
-  <div id="h2" class="totoh" ></div>
-  <div id="h3" class="totoh" ></div>
+  <div id="h0" class="totohb" ></div>
+  <div id="h1" class="totohb"></div>
+  <div id="h2" class="totohb" ></div>
+  <div id="h3" class="totohb" ></div>
   <div id="h4" class="totohs"></div>
-  <div id="h5" class="totoh"></div>
-  <div id="h6" class="totoh"></div>
-  <div id="h7" class="totoh"></div>
-  <div id="h8" class="totoh"></div>
+  <div id="h5" class="totohb"></div>
+  <div id="h6" class="totohb"></div>
+  <div id="h7" class="totohb"></div>
+  <div id="h8" class="totohb"></div>
 </div>
 
+
 <div class="vertical">
-  <div id="v9" class="totov"></div>
-  <div id="v10" class="totov" ></div>
-  <div id="v11" class="totov"></div>
-  <div id="v12" class="totov"></div>
+  <div id="v9" class="totovb"></div>
+  <div id="v10" class="totovb" ></div>
+  <div id="v11" class="totovb"></div>
+  <div id="v12" class="totovb"></div>
   <div id="v13" class="totovs"></div>
+  <div id="G4" class="Gnormal"></div>
   <div id="v14" class="totovs"></div>
-  <div id="v15" class="totov"></div>
-  <div id="v16" class="totov" ></div>
-  <div id="v17" class="totov" ></div>
-  <div id="v18" class="totov" ></div>
+  <div id="v15" class="totovb"></div>
+  <div id="v16" class="totovb" ></div>
+  <div id="v17" class="totovb" ></div>
+  <div id="v18" class="totovb" ></div>
 </div>
 
 <div class="horiz1">
-<div id="h19" class="totoh" ></div>
-<div id="h20" class="totoh" ></div>
-<div id="h21" class="totoh" ></div>
+<div id="h19" class="totohb" ></div>
+<div id="h20" class="totohb" ></div>
+<div id="h21" class="totohb" ></div>
 <div id="h22" class="totohs"></div>
 <div id="h23" class="totoh"  onclick="test(this)"></div>
 <div id="h24" class="totohs"></div>
-<div id="h25" class="totoh" ></div>
-<div id="h26" class="totoh" ></div>
-<div id="h27" class="totoh" ></div>
+<div id="h25" class="totohb" ></div>
+<div id="h26" class="totohb" ></div>
+<div id="h27" class="totohb" ></div>
 </div>
 
 
       <div class="vertical">
-      <div id="v28" class="totov"  ></div>
-      <div id="v29" class="totov"  ></div>
-      <div id="v30" class="totov"  ></div>
+      <div id="v28" class="totovb"  ></div>
+      <div id="v29" class="totovb"  ></div>
+      <div id="v30" class="totovb"  ></div>
       <div id="v31" class="totovs" ></div>
+      <div id="G22" class="Gnormal"></div>
       <div id="v32" class="totov"  onclick="test2(this)"></div>
+      <div id="G23" class="Gnormal"></div>
       <div id="v33" class="totov"  onclick="test2(this)"></div>
+      <div id="G24" class="Gnormal"></div>
       <div id="v34" class="totovs"></div>
-      <div id="v35" class="totov"  ></div>
-      <div id="v36" class="totov"  ></div>
-      <div id="v37" class="totov"  ></div>
+      <div id="v35" class="totovb"  ></div>
+      <div id="v36" class="totovb"  ></div>
+      <div id="v37" class="totovb"  ></div>
     </div>
 
       <div class="horiz1">
-      <div id="h38"class="totoh"  ></div>
-      <div id="h39"class="totoh"  ></div>
+      <div id="h38"class="totohb"  ></div>
+      <div id="h39"class="totohb"  ></div>
       <div id="h40"class="totohs"></div>
       <div id="h41"class="totoh"  onclick="test(this)"></div>
       <div id="h42"class="totoh"  onclick="test(this)"></div>
       <div id="h43"class="totoh"  onclick="test(this)"></div>
       <div id="h44"class="totohs" ></div>
-      <div id="h45"class="totoh"  ></div>
-      <div id="h46"class="totoh"  ></div>
+      <div id="h45"class="totohb"  ></div>
+      <div id="h46"class="totohb"  ></div>
     </div>
 
     <div class="vertical">
-    <div id="v47" class="totov"  ></div>
-    <div id="v48" class="totov"  ></div>
+    <div id="v47" class="totovb"  ></div>
+    <div id="v48" class="totovb"  ></div>
     <div id="v49" class="totovs"></div>
+    <div id="G40" class="Gnormal"></div>
     <div id="v50" class="totov"  onclick="test2(this)"></div>
+    <div id="G41" class="Gnormal"></div>
     <div id="v51" class="totov"  onclick="test2(this)"></div>
+    <div id="G42" class="Gnormal"></div>
     <div id="v52" class="totov"  onclick="test2(this)"></div>
+    <div id="G43" class="Gnormal"></div>
     <div id="v53" class="totov"  onclick="test2(this)"></div>
+    <div id="G44" class="Gnormal"></div>
     <div id="v54" class="totovs"></div>
-    <div id="v55" class="totov"  ></div>
-    <div id="v56" class="totov"  ></div>
+    <div id="v55" class="totovb"  ></div>
+    <div id="v56" class="totovb"  ></div>
   </div>
 
     <div class="horiz1">
-    <div id="h57"class="totoh"  ></div>
+    <div id="h57"class="totohb"  ></div>
     <div id="h58"class="totohs"></div>
     <div id="h59"class="totoh"  onclick="test(this)"></div>
     <div id="h60"class="totoh"  onclick="test(this)"></div>
@@ -971,20 +104,27 @@ margin-left: 370px;
     <div id="h62"class="totoh"  onclick="test(this)"></div>
     <div id="h63"class="totoh"  onclick="test(this)"></div>
     <div id="h64"class="totohs"></div>
-    <div id="h65"class="totoh"  ></div>
+    <div id="h65"class="totohb"  ></div>
   </div>
 
   <div class="vertical">
-  <div id="v66" class="totov"  ></div>
+  <div id="v66" class="totovb"  ></div>
   <div id="v67" class="totovs"></div>
+  <div id="G58" class="Gnormal"></div>
   <div id="v68" class="totov"  onclick="test2(this)"></div>
+  <div id="G59" class="Gnormal"></div>
   <div id="v69" class="totov"  onclick="test2(this)"></div>
+  <div id="G60" class="Gnormal"></div>
   <div id="v70" class="totov"  onclick="test2(this)"></div>
+  <div id="G61" class="Gnormal"></div>
   <div id="v71" class="totov"  onclick="test2(this)"></div>
+  <div id="G62" class="Gnormal"></div>
   <div id="v72" class="totov"  onclick="test2(this)"></div>
+  <div id="G63" class="Gnormal"></div>
   <div id="v73" class="totov"  onclick="test2(this)"></div>
+  <div id="G64" class="Gnormal"></div>
   <div id="v74" class="totovs"></div>
-  <div id="v75" class="totov"  ></div>
+  <div id="v75" class="totovb"  ></div>
 </div>
 
   <div class="horiz1">
@@ -1001,14 +141,23 @@ margin-left: 370px;
 
 <div class="vertical">
 <div id="v85" class="totovs"></div>
+<div id="G76" class="Gnormal"></div>
 <div id="v86" class="totov"  onclick="test2(this)"></div>
+<div id="G77" class="Gnormal"></div>
 <div id="v87" class="totov"  onclick="test2(this)"></div>
+<div id="G78" class="Gnormal"></div>
 <div id="v88" class="totov"  onclick="test2(this)"></div>
+<div id="G79" class="Gnormal"></div>
 <div id="v89" class="totov"  onclick="test2(this)"></div>
+<div id="G80" class="Gnormal"></div>
 <div id="v90" class="totov"  onclick="test2(this)"></div>
+<div id="G81" class="Gnormal"></div>
 <div id="v91" class="totov"  onclick="test2(this)"></div>
+<div id="G82" class="Gnormal"></div>
 <div id="v92" class="totov"  onclick="test2(this)"></div>
+<div id="G83" class="Gnormal"></div>
 <div id="v93" class="totov"  onclick="test2(this)"></div>
+<div id="G84" class="Gnormal"></div>
 <div id="v94" class="totovs"></div>
 </div>
 
@@ -1025,20 +174,27 @@ margin-left: 370px;
 </div>
 
 <div class="vertical">
-<div id="v104" class="totov"  ></div>
+<div id="v104" class="totovb"  ></div>
 <div id="v105" class="totovs"></div>
+<div id="G96" class="Gnormal"></div>
 <div id="v106" class="totov"  onclick="test2(this)"></div>
+<div id="G97" class="Gnormal"></div>
 <div id="v107" class="totov"  onclick="test2(this)"></div>
+<div id="G98" class="Gnormal"></div>
 <div id="v108" class="totov"  onclick="test2(this)"></div>
+<div id="G99" class="Gnormal"></div>
 <div id="v109" class="totov"  onclick="test2(this)"></div>
+<div id="G100" class="Gnormal"></div>
 <div id="v110" class="totov"  onclick="test2(this)"></div>
+<div id="G101" class="Gnormal"></div>
 <div id="v111" class="totov"  onclick="test2(this)"></div>
+<div id="G102" class="Gnormal"></div>
 <div id="v112" class="totovs"></div>
-<div id="v113" class="totov"  ></div>
+<div id="v113" class="totovb"  ></div>
 </div>
 
 <div class="horiz1">
-<div id="h114"class="totoh"  ></div>
+<div id="h114"class="totohb"  ></div>
 <div id="h115"class="totohs"></div>
 <div id="h116"class="totoh"  onclick="test(this)"></div>
 <div id="h117"class="totoh"  onclick="test(this)"></div>
@@ -1046,82 +202,91 @@ margin-left: 370px;
 <div id="h119"class="totoh"  onclick="test(this)"></div>
 <div id="h120"class="totoh"  onclick="test(this)"></div>
 <div id="h121"class="totohs"></div>
-<div id="h122"class="totoh"  ></div>
+<div id="h122"class="totohb"  ></div>
 </div>
 
 <div class="vertical">
-<div id="v123" class="totov"  ></div>
-<div id="v124" class="totov"  ></div>
+<div id="v123" class="totovb"  ></div>
+<div id="v124" class="totovb"  ></div>
 <div id="v125" class="totovs"></div>
+<div id="G116" class="Gnormal"></div>
 <div id="v126" class="totov"  onclick="test2(this)"></div>
+<div id="G117" class="Gnormal"></div>
 <div id="v127" class="totov"  onclick="test2(this)"></div>
+<div id="G118" class="Gnormal"></div>
 <div id="v128" class="totov"  onclick="test2(this)"></div>
+<div id="G119" class="Gnormal"></div>
 <div id="v129" class="totov"  onclick="test2(this)"></div>
+<div id="G120" class="Gnormal"></div>
 <div id="v130" class="totovs"></div>
-<div id="v131" class="totov" ></div>
-<div id="v132" class="totov" ></div>
+<div id="v131" class="totovb" ></div>
+<div id="v132" class="totovb" ></div>
 </div>
 
 <div class="horiz1">
-<div id="h133"class="totoh"  ></div>
-<div id="h134"class="totoh"  ></div>
+<div id="h133"class="totohb"  ></div>
+<div id="h134"class="totohb"  ></div>
 <div id="h135"class="totohs"></div>
 <div id="h136"class="totoh"  onclick="test(this)"></div>
 <div id="h137"class="totoh"  onclick="test(this)"></div>
 <div id="h138"class="totoh"  onclick="test(this)"></div>
 <div id="h139"class="totohs"></div>
-<div id="h140"class="totoh"  ></div>
-<div id="h141"class="totoh"  ></div>
+<div id="h140"class="totohb"  ></div>
+<div id="h141"class="totohb"  ></div>
 </div>
 
 <div class="vertical">
-<div id="v142" class="totov"  ></div>
-<div id="v143" class="totov"  ></div>
-<div id="v144" class="totov"  ></div>
+<div id="v142" class="totovb"  ></div>
+<div id="v143" class="totovb"  ></div>
+<div id="v144" class="totovb"  ></div>
 <div id="v145" class="totovs"></div>
+<div id="G136" class="Gnormal"></div>
 <div id="v146" class="totov"  onclick="test2(this)"></div>
+<div id="G137" class="Gnormal"></div>
 <div id="v147" class="totov"  onclick="test2(this)"></div>
+<div id="G138" class="Gnormal"></div>
 <div id="v148" class="totovs"></div>
-<div id="v149" class="totov"  ></div>
-<div id="v150" class="totov"  ></div>
-<div id="v151" class="totov"  ></div>
+<div id="v149" class="totovb"  ></div>
+<div id="v150" class="totovb"  ></div>
+<div id="v151" class="totovb"  ></div>
 </div>
 
 <div class="horiz1">
-<div id="h152"class="totoh"  ></div>
-<div id="h153"class="totoh"  ></div>
-<div id="h154"class="totoh"  ></div>
+<div id="h152"class="totohb"  ></div>
+<div id="h153"class="totobh"  ></div>
+<div id="h154"class="totohb"  ></div>
 <div id="h155"class="totohs"></div>
 <div id="h156"class="totoh"  onclick="test(this)"></div>
 <div id="h157"class="totohs"></div>
-<div id="h158"class="totoh"  ></div>
-<div id="h159"class="totoh"  ></div>
-<div id="h160"class="totoh"  ></div>
+<div id="h158"class="totohb"  ></div>
+<div id="h159"class="totohb"  ></div>
+<div id="h160"class="totohb"  ></div>
 </div>
 
 <div class="vertical">
-<div id="v161" class="totov"  ></div>
-<div id="v162" class="totov"  ></div>
-<div id="v163" class="totov"  ></div>
-<div id="v164" class="totov"  ></div>
+<div id="v161" class="totovb"  ></div>
+<div id="v162" class="totovb"  ></div>
+<div id="v163" class="totovb"  ></div>
+<div id="v164" class="totovb"  ></div>
 <div id="v165" class="totovs"></div>
+<div id="G156" class="Gnormal"></div>
 <div id="v166" class="totovs"></div>
-<div id="v167" class="totov"  ></div>
-<div id="v168" class="totov"  ></div>
-<div id="v169" class="totov"  ></div>
-<div id="v170" class="totov"  ></div>
+<div id="v167" class="totovb"  ></div>
+<div id="v168" class="totovb"  ></div>
+<div id="v169" class="totovb"  ></div>
+<div id="v170" class="totovb"  ></div>
 </div>
 
 <div class="horiz1">
-<div id="h171"class="totoh"  ></div>
-<div id="h172"class="totoh"  ></div>
-<div id="h173"class="totoh"  ></div>
-<div id="h174"class="totoh"  ></div>
+<div id="h171"class="totohb"  ></div>
+<div id="h172"class="totohb"  ></div>
+<div id="h173"class="totohb"  ></div>
+<div id="h174"class="totohb"  ></div>
 <div id="h175"class="totohs"></div>
-<div id="h176"class="totoh"  ></div>
-<div id="h177"class="totoh"  ></div>
-<div id="h178"class="totoh"  ></div>
-<div id="h179"class="totoh"  ></div>
+<div id="h176"class="totohb"  ></div>
+<div id="h177"class="totohb"  ></div>
+<div id="h178"class="totohb"  ></div>
+<div id="h179"class="totohb"  ></div>
 </div>
 </div>
 
@@ -1137,17 +302,17 @@ function test(toto){
 
 toto.className = "totohs";
 
-
   if(index2>0){
   var e1 = document.getElementById("v"+index1);
   var e2 = document.getElementById("v"+index2);
   var e3 = document.getElementById("h"+index3);
 
 if(e1.className == "totovs" && e2.className == "totovs" && e3.className == "totohs"){
-  alert("Gagné - haut !!!")
+
+  document.getElementById("G"+index3).className = "Gs";
 }
 else{
-  alert("Perdu - haut!!!")
+
 }
 
 }
@@ -1163,9 +328,10 @@ else{
   var e6 = document.getElementById("h"+index6);
 
 if(e4.className == "totovs" && e5.className == "totovs" && e6.className == "totohs"){
-  alert("Gagné - bas!!!")
+
+  document.getElementById("G"+index).className = "Gs";
 }else{
-  alert("Perdu - bas!!!!")
+
 }
 
   }
@@ -1194,9 +360,9 @@ toto2.className = "totovs";
 
 
 if(ev1.className == "totohs" && ev2.className == "totovs" && ev3.className == "totohs"){
-  alert("Gagné - gauche !!!")
+document.getElementById("G"+indexV1).className = "Gs";
 }else{
-  alert("Perdu - gauche !!!")
+
 }
   }
 
@@ -1210,9 +376,9 @@ if(ev1.className == "totohs" && ev2.className == "totovs" && ev3.className == "t
   var ev6 = document.getElementById("h"+indexV6);
 
 if(ev4.className == "totohs" && ev5.className == "totovs" && ev6.className == "totohs"){
-  alert("Gagné - droite !!!")
+document.getElementById("G"+indexV4).className = "Gs";
 }else{
-  alert("Perdu - droite !!!")
+
 }
   }
 
