@@ -34,6 +34,387 @@ font-size: 30px;
 
 
 /******************************************************************design*/
+
+#back{
+	height:300px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:0;
+background-image: url(photos/bak.jpg);
+	background-repeat: no-repeat;
+background-size: contain;
+	background-attachment: fixed;
+	box-shadow: 0 3px 12px rgba(0,0,0,0.5);
+}
+
+#nom{
+font-family: 'IM Fell English SC', serif;
+	padding-right:30px;
+	padding-top:70px;
+margin-left: 20px;
+	font-size: 130px;
+	color: rgba(250, 250, 250,0.8);
+}
+
+#wrapper{width:1024px;
+	min-height:800px;
+margin: auto;
+	position:relative;}
+
+body{
+	font-family:'Open Sans', sans-serif;
+background-image:url(photos/fin2.jpg);
+	background-repeat:repeat;
+	min-height: 100vh;
+}
+.ines {
+	margin-left: 90px;
+font-size: 50px;
+	font-family: 'Seaweed Script', cursive;
+	color: rgb(209, 186, 112);
+}
+.ins{
+	margin-left: 90px;
+font-size: 50px;
+	font-family: 'Seaweed Script', cursive;
+		color: rgb(255, 150, 100);
+}
+
+#texte{
+	width:800px;
+	height:100px;
+	padding:40px;
+	color: #000;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0 0 5px #D1BA70 inset;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+overflow: hidden;
+transition: all 1s ease-in-out 0s;
+}
+#texte:hover{
+	height:500px;
+}
+#text{
+	width:600px;
+	height:100px;
+	padding:20px;
+	margin: 20px;
+	margin-left: 200px;
+	color: rgb(255,255,255);
+box-shadow: 0 0 5px #fff inset;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+}
+
+
+
+footer {	width:900px;
+	margin-top:300px;
+	text-align:center;
+color: #fff;
+opacity: 0.5;
+    filter: alpha(opacity=50);
+	position: relative;}
+
+aside a{
+	width:50px;
+	height:50px;
+	display:block;
+}
+
+
+
+
+aside #facebook a:link{
+background-image: url(icones/facebook.png);
+background-position-x:0px;
+}
+aside #facebook a:visited{
+background-position-x:-50px;
+}
+aside #facebook a:hover{
+background-position-x:-100px;
+}
+aside #facebook a:active{
+background-position-x:-150px;
+}
+
+aside #twitter a:link{
+background-image: url(icones/twitter.png);
+background-position-x:0px;
+}
+aside #twitter a:visited{
+background-position-x:-50px;
+}
+aside #twitter a:hover{
+background-position-x:-100px;
+}
+aside #twitter a:active{
+background-position-x:-150px;
+}
+
+aside #instagram a:link{
+background-image: url(icones/instagrm.png);
+background-position-x:0px;
+}
+aside #instagram a:visited{
+background-position-x:-50px;
+}
+aside #instagram a:hover{
+background-position-x:-100px;
+}
+aside #instagram a:active{
+background-position-x:-150px;
+}
+aside {
+	width:200px;
+	height:70px;
+	margin-left: 900px;
+}
+
+aside li{
+	float:left;
+}
+
+
+ ul {
+    list-style-type: none;
+    overflow: hidden;
+padding: 20px;
+}
+
+nav li {
+    float: left;
+		border-right: 2px solid #fff;
+
+}
+nav #index{
+	border-left: 2px solid #fff;
+}
+
+nav li a {
+	width: 220px;
+    display: block;
+
+    text-align: center;
+padding: 0px;
+    text-decoration: none;
+}
+
+nav a{
+	font-size: 20px;
+}
+nav a:link{
+
+color:#fff;
+}
+nav a:visited{
+
+	color:rgb(255, 255, 255);
+}
+nav a:hover{
+	color:#fff;
+}
+nav a:active{
+	background:rgba(0,0,0,0.5);
+}
+
+
+#page_00 header{color:#000;}
+/**********************************************************************photo*/
+
+.affiche{
+	width:auto;
+	height:440px;
+margin-top:40px;
+margin-right:20px;
+	border: solid 20px #fff;
+	box-shadow:0 3px 24px rgba(0,0,0,0.7);
+float:left;
+}
+.affiche2{
+	width:auto;
+	height:370px;
+margin-top:40px;
+margin-right:20px;
+	border: solid 10px #fff;
+	box-shadow:0 3px 24px rgba(0,0,0,0.7);
+float:left;
+}
+.affiche1{
+	width:auto;
+	height:530px;
+margin-top:40px;
+margin-right:20px;
+	border: solid 20px #fff;
+	box-shadow:0 3px 24px rgba(0,0,0,0.7);
+float:left;
+}
+
+.magazin{
+	font-size: 70px;
+	font-family: 'Seaweed Script', cursive;
+	color: rgb(255, 150, 100);
+}
+.click{
+	margin-left: 320px;
+	font-size: 30px;
+	color: #000;
+font-family:'Open Sans', sans-serif;
+}
+.photo{
+	width:300px;
+	height:200px;
+	margin-top: 70px;
+	border: solid 20px #fff;
+	box-shadow:0 3px 24px rgba(0,0,0,0.7);
+	transition: all 1s ease-in-out 0s;
+	border-radius:3px;
+	margin-left: 200px;
+
+}
+.photo:hover .texte{
+	display:block;
+}
+.photo:hover{
+	z-index:99;
+	transform-origin: 50% 50%;
+	transform: scale(1.7,1.7) translate(120px,0);
+}
+.photo img{
+	width:300px;
+	height:200px;
+
+}
+.photo1{
+	top:200px;
+	left:200px;
+	transform:rotate(12deg) scale(1,1) translate(0,0);
+}
+.photo2{
+	top:300px;
+	left:300px;
+	transform:rotate(-9deg);
+}
+.photo3{
+	top:450px;
+	left:250px;
+	transform:rotate(7deg);
+}
+.photo4{
+	top:600px;
+	left:180px;
+	transform:rotate(-8deg);
+}
+.photo5{
+	top:750px;
+	left:180px;
+	transform:rotate(8deg);
+}
+.photo6{
+	top:950px;
+	left:180px;
+	transform:rotate(-12deg);
+}
+.photo7{
+	top:1050px;
+	left:180px;
+	transform:rotate(10deg);
+}
+
+.legende{
+	width:350px;
+	height:80px;
+	position:absolute;
+	top:20px;
+	left:40px;
+}
+
+.texte{
+	width:200px;
+	height:100px;
+	position:absolute;
+	top:50px;
+	left:300px;
+	display:none;
+	font-size: 35px;
+	font-family: 'Seaweed Script', cursive;
+	color: rgb(255, 255, 255);
+}
+/******************************photo*/
+
+.ine{
+	width:900px;
+	height:100px;
+	padding:30px;
+	font-size: 70px;
+	font-family: 'Seaweed Script', cursive;
+	color: rgb(255, 150, 100);
+	margin: 20px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 5px #fff inset;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+overflow: hidden;
+transition: all 1s ease-in-out 0s;
+
+}
+.ine:hover{
+	height:1970px;
+}
+.first{
+	width:900px;
+	height:100px;
+	padding:30px;
+	font-size: 70px;
+	font-family: 'Seaweed Script', cursive;
+	color: rgb(255, 150, 100);
+	margin: 20px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 5px #fff inset;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+overflow: hidden;
+transition: all 1s ease-in-out 0s;
+
+}
+.first:hover{
+	height:2170px;
+}
+.mag{
+	width:900px;
+	height:100px;
+	padding:30px;
+	color: rgb(120, 40, 40);
+	margin: 20px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 5px #fff inset;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+overflow: hidden;
+transition: all 1s ease-in-out 0s;
+}
+.mag:hover{
+	height:700px;
+}
+.mgz{
+	margin-top: 40px;
+margin-left: 250px;
+border: solid 10px; color: #fff;
+	box-shadow: 0px 0px 10px #000;}
+
+.float_left{
+	float:left;
+transform: rotate(-10deg);
+border: solid 10px; color: #fff;
+	box-shadow: 3px 2px 10px #000;}
+
+
+
+
+	/**********************************************************screens*/
 @media screen and (min-width: 1200px){
 #back{
 	height:300px;
