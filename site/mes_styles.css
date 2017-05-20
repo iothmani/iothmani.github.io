@@ -53,6 +53,10 @@
 		padding:20px;
 		margin: 20px;
 		margin-left: 200px;
+		color: rgb(255,255,255);
+	box-shadow: 0 0 5px #fff inset;
+		background: rgba(255, 255, 255, 0.3);
+		border-radius: 10px;
 	}
 .contact{
 		width:600px;
@@ -272,6 +276,10 @@
 		padding:20px;
 		margin: 20px;
 		margin-left: 100px;
+		color: rgb(255,255,255);
+	box-shadow: 0 0 5px #fff inset;
+		background: rgba(255, 255, 255, 0.3);
+		border-radius: 10px;
 	}
 .contact{
 		width:600px;
@@ -487,6 +495,10 @@
 		padding:20px;
 		margin: 20px;
 		margin-left: 200px;
+		color: rgb(255,255,255);
+	box-shadow: 0 0 5px #fff inset;
+		background: rgba(255, 255, 255, 0.3);
+		border-radius: 10px;
 	}
 	.contact{
 		width:500px;
@@ -692,6 +704,10 @@
 		padding:20px;
 		margin: 20px;
 		margin-left: 200px;
+		color: rgb(255,255,255);
+	box-shadow: 0 0 5px #fff inset;
+		background: rgba(255, 255, 255, 0.3);
+		border-radius: 10px;
 	}
 	.contact{
 		width:500px;
@@ -901,6 +917,12 @@
 		padding:20px;
 		margin: 20px;
 		margin-left: 200px;
+
+			color: rgb(255,255,255);
+		box-shadow: 0 0 5px #fff inset;
+			background: rgba(255, 255, 255, 0.3);
+			border-radius: 10px;
+
 	}
 	.contact{
 		width:500px;
@@ -1083,7 +1105,7 @@
 			margin-right:auto;
 			margin-left:auto;
 			margin-top:0;
-			background-image: url(photos/back1.png);
+			background-image: url(photos/back2.png);
 				background-repeat: no-repeat;
 			background-size: contain;
 				box-shadow: 0 3px 12px rgba(0,0,0,0.5);
@@ -1106,14 +1128,29 @@
 		#texte{
 		display: none;
 		}
+.phone{
+	width: auto;
+	height: 300px;
+margin-left: -80px;
+	border: solid 7px;
+	color: #fff;
+	box-shadow: 3px 2px 10px #000;
 
+}
+#phone2{
+	width: 350px;
+	height: auto;
+	padding:20px;
+	margin: 20px;
+	margin-left: -50px;
+		color: rgb(0,0,0);
+	box-shadow: 0 0 5px #fff inset;
+		background: rgba(255, 255, 255, 0.5);
+		border-radius: 10px;
+}
 
 		#text{
-			width:500px;
-			height:100px;
-			padding:20px;
-			margin: 20px;
-			margin-left: 200px;
+		display: none;
 		}
 		.contact{
 			width:500px;
@@ -1166,45 +1203,7 @@
 			margin-right:20px;
 			}
 
-			.magazin{
-				font-size: 70px;
-			}
 
-			.click{
-				margin-left: 210px;
-				font-size: 30px;
-			}
-
-			.photo{
-				width:300px;
-				height:200px;
-				margin-top: 70px;
-
-				margin-left: 20px;
-			}
-
-
-			.photo img{
-				width:300px;
-				height:200px;
-			}
-
-
-			.legende{
-				width:350px;
-				height:80px;
-				position:absolute;
-				top:20px;
-				left:40px;
-			}
-
-			.texte{
-				width:200px;
-				height:100px;
-				position:absolute;
-				top:50px;
-				left:300px;
-			}
 
 			.ine{
 display: none;
@@ -1226,18 +1225,9 @@ font-size: 50px;
 font-family: 'Seaweed Script', cursive;
 color: rgb(255, 255, 255);
 			}
-			.mgz{
-				margin-top: 40px;
-			margin-left: 130px;
-			border: solid 10px; color: #fff;
-				box-shadow: 0px 0px 10px #000;}
 
 				.float_left{
-					height: 300px;
-					margin-left: 50px;
-				float:left;
-				transform: rotate(-10deg);
-				border: solid 10px; }
+				display: none; }
 	}
 
 
@@ -1278,12 +1268,7 @@ font-size: 50px;
 	border-radius: 10px;
 }
 
-#text{
-	color: rgb(255,255,255);
-box-shadow: 0 0 5px #fff inset;
-	background: rgba(255, 255, 255, 0.3);
-	border-radius: 10px;
-}
+
 .contact{
 	color: rgb(255,255,255);
 box-shadow: 0 0 5px #fff inset;
