@@ -1091,7 +1091,7 @@
 		}
 
 		#nom{
-				font-size: 30px;
+				font-size: 50px;
 			padding-right:30px;
 			padding-top:100px;
 		margin-left: 20px;
@@ -1178,21 +1178,10 @@
 				width:300px;
 				height:200px;
 				margin-top: 70px;
-				border: solid 20px #fff;
-				box-shadow:0 3px 24px rgba(0,0,0,0.7);
-				transition: all 1s ease-in-out 0s;
-				border-radius:3px;
+
 				margin-left: 20px;
 			}
-			.photo:hover .texte{
-				display:block;
-			}
 
-			.photo:hover{
-				z-index:80;
-				transform-origin: 50% 50%;
-				transform: scale(1.4,1.4) translate(100px,0);
-			}
 
 			.photo img{
 				width:300px;
@@ -1217,55 +1206,23 @@
 			}
 
 			.ine{
-				width:650px;
-				height:100px;
-				padding:30px;
-				font-size: 70px;
-				margin: 20px;
-				margin-bottom: 30px;
-				box-shadow: 0 0 5px #fff inset;
-				background: rgba(255, 255, 255, 0.2);
-				border-radius: 20px;
-			overflow: hidden;
-			transition: all 1s ease-in-out 0s;
+display: none;
+			}
 
-			}
-			.ine:hover{
-				height:1970px;
-			}
 
 			.first{
-				width:650px;
-				height:100px;
-				padding:30px;
-				font-size: 70px;
-				margin: 20px;
-				margin-bottom: 30px;
-				box-shadow: 0 0 5px #fff inset;
-				background: rgba(255, 255, 255, 0.2);
-				border-radius: 20px;
-			overflow: hidden;
-			transition: all 1s ease-in-out 0s;
-			}
-			.first:hover{
-				height:2700px;
+	display: none;
 			}
 
 			.mag{
-				width:650px;
-				height:100px;
-				padding:30px;
-				color: rgb(120, 40, 40);
-				margin: 20px;
-				margin-bottom: 30px;
-				box-shadow: 0 0 5px #fff inset;
-				background: rgba(255, 255, 255, 0.2);
-				border-radius: 20px;
-			overflow: hidden;
-			transition: all 1s ease-in-out 0s;
+	display: none;
+
 			}
-			.mag:hover{
-				height:700px;
+			.iphone{
+height: auto;
+font-size: 45px;
+font-family: 'Seaweed Script', cursive;
+color: rgb(255, 255, 255);
 			}
 			.mgz{
 				margin-top: 40px;
