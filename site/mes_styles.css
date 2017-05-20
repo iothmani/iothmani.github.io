@@ -70,6 +70,11 @@
 			height:70px;
 			margin-left: 900px;
 		}
+		aside a{
+			width:50px;
+			height:50px;
+			display:block;
+		}
 		nav li a {
 			width: 220px;
 		    display: block;
@@ -284,6 +289,11 @@
 			height:70px;
 			margin-left: 670px;
 		}
+		aside a{
+			width:50px;
+			height:50px;
+			display:block;
+		}
 		nav li a {
 			width: 180px;
 		    display: block;
@@ -494,6 +504,11 @@
 			height:70px;
 			margin-left: 570px;
 		}
+		aside a{
+			width:50px;
+			height:50px;
+			display:block;
+		}
 		nav li a {
 			width: 180px;
 		    display: block;
@@ -693,6 +708,11 @@
 			width:200px;
 			height:70px;
 			margin-left: 570px;
+		}
+		aside a{
+			width:50px;
+			height:50px;
+			display:block;
 		}
 		nav li a {
 			width: 180px;
@@ -898,6 +918,11 @@
 			height:70px;
 			margin-left: 570px;
 		}
+		aside a{
+			width:50px;
+			height:50px;
+			display:block;
+		}
 		nav li a {
 			width: 180px;
 		    display: block;
@@ -1066,7 +1091,7 @@
 		}
 
 		#nom{
-				font-size: 40px;
+				font-size: 60px;
 			padding-right:30px;
 			padding-top:100px;
 		margin-left: 20px;
@@ -1100,14 +1125,19 @@
 
 		footer {	width:300px;
 			margin-top:100px;}
-
+			aside a{
+				width:50px;
+				height:50px;
+				display:block;
+			}
 			aside {
 				width:200px;
 				height:70px;
 				margin-left: 150px;
 			}
 			nav li a {
-				width: 180px;
+				width: 190px;
+				margin-top: 20px;
 			    display: block;
 			}
 			nav a{
@@ -1316,11 +1346,7 @@ color: #fff;
 opacity: 0.5;
     filter: alpha(opacity=50);}
 
-aside a{
-	width:50px;
-	height:50px;
-	display:block;
-}
+
 
 aside #facebook a:link{
 background-image: url(icones/facebook.png);
