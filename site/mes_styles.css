@@ -1058,7 +1058,7 @@
 			margin-right:auto;
 			margin-left:auto;
 			margin-top:0;
-			background-image: url(photos/bak1.jpg);
+			background-image: url(photos/back.jpg);
 				background-repeat: no-repeat;
 			background-size: contain;
 				background-attachment: fixed;
@@ -1067,7 +1067,7 @@
 		}
 
 		#nom{
-				font-size: 70px;
+				font-size: 60px;
 			padding-right:30px;
 			padding-top:100px;
 		margin-left: 10px;
