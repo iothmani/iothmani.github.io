@@ -1054,14 +1054,13 @@
 	/*      IPHONE                                             */
 	@media only screen and (min-width: 414px)and (max-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 		#back{
-			height:180px;
+			height:150px;
 			margin-right:auto;
 			margin-left:auto;
 			margin-top:0;
 			background-image: url(photos/back1.jpg);
 				background-repeat: no-repeat;
 			background-size: contain;
-
 				box-shadow: 0 3px 12px rgba(0,0,0,0.5);
 
 		}
@@ -1070,7 +1069,7 @@
 				font-size: 40px;
 			padding-right:30px;
 			padding-top:100px;
-		margin-left: 10px;
+		margin-left: 20px;
 		}
 
 		#wrapper{width:300px;}
