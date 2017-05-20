@@ -1061,13 +1061,13 @@
 			background-image: url(photos/back.jpg);
 				background-repeat: no-repeat;
 			background-size: contain;
-				background-attachment: fixed;
+
 				box-shadow: 0 3px 12px rgba(0,0,0,0.5);
 
 		}
 
 		#nom{
-				font-size: 60px;
+				font-size: 40px;
 			padding-right:30px;
 			padding-top:100px;
 		margin-left: 10px;
@@ -1112,7 +1112,7 @@
 			    display: block;
 			}
 			nav a{
-				font-size: 40px;
+				font-size: 30px;
 			}
 			nav li {
 			    float: left;
