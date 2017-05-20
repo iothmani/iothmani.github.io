@@ -1083,7 +1083,7 @@
 			margin-right:auto;
 			margin-left:auto;
 			margin-top:0;
-			background-image: url(photos/back1.jpg);
+			background-image: url(photos/bak1.jpg);
 				background-repeat: no-repeat;
 			background-size: contain;
 				box-shadow: 0 3px 12px rgba(0,0,0,0.5);
@@ -1091,7 +1091,7 @@
 		}
 
 		#nom{
-				font-size: 60px;
+				font-size: 40px;
 			padding-right:30px;
 			padding-top:100px;
 		margin-left: 20px;
