@@ -1144,6 +1144,7 @@
 			}
 			nav #index{border: none;}
 
+
 			.affiche{
 				width:auto;
 				height:400px;
@@ -1153,7 +1154,7 @@
 
 			.affiche2{
 				width:auto;
-				height:250px;
+				height:200px;
 			margin-top:40px;
 			margin-right:20px;
 			}
@@ -1220,7 +1221,8 @@ display: none;
 			}
 			.iphone{
 height: auto;
-font-size: 45px;
+margin-top: 20px;
+font-size: 50px;
 font-family: 'Seaweed Script', cursive;
 color: rgb(255, 255, 255);
 			}
@@ -1244,7 +1246,7 @@ color: rgb(255, 255, 255);
 
 #nom{
 font-family: 'IM Fell English SC', serif;
-	color: rgba(250, 250, 250,0.8);
+	color: rgb(250, 250, 250);
 }
 
 #wrapper{
