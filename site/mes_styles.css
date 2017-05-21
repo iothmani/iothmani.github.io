@@ -1229,11 +1229,12 @@ display: none;
 
 			}
 			.iphone{
-height: auto;
-margin-top: 20px;
+width: auto;
+margin-top: 50px;
+margin-left: -30px;
 font-size: 50px;
 font-family: 'Seaweed Script', cursive;
-color: rgb(255, 255, 255);
+color:#d7be70;
 			}
 
 				.float_left{
