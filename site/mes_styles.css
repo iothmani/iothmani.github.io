@@ -9,7 +9,9 @@
 	body{
 		min-height: 100vh;
 	}
-
+.phone{display: none;}
+#phone2{display: none;}
+.iphone{display: none;}
 	#back{
 		height:300px;
 		margin-right:auto;
@@ -232,7 +234,9 @@
 	body{
 		min-height:100vh;
 	}
-
+	.phone{display: none;}
+	#phone2{display: none;}
+	.iphone{display: none;}
 	#back{
 		height:250px;
 		margin-right:auto;
@@ -452,7 +456,7 @@
 			transform: rotate(-10deg);
 			border: solid 10px; }
 }
-@media screen and (max-width: 800px) and (min-device-width: 1024px){
+@media screen and (max-width: 800px) and (min-width: 1024px){
 	#back{
 		height:200px;
 		margin-right:auto;
@@ -464,7 +468,9 @@
 			background-attachment: fixed;
 			box-shadow: 0 3px 12px rgba(0,0,0,0.5);
 	}
-
+	.phone{display: none;}
+	#phone2{display: none;}
+	.iphone{display: none;}
 	#nom{
 			font-size: 100px;
 		padding-right:30px;
@@ -675,7 +681,9 @@
 		margin-left:auto;
 		margin-top:0;
 	}
-
+	.phone{display: none;}
+	#phone2{display: none;}
+	.iphone{display: none;}
 	#nom{
 			font-size: 100px;
 		padding-right:30px;
@@ -888,7 +896,9 @@
 		margin-left:auto;
 		margin-top:0;
 	}
-
+	.phone{display: none;}
+	#phone2{display: none;}
+	.iphone{display: none;}
 	#nom{
 			font-size: 100px;
 		padding-right:30px;
@@ -1115,7 +1125,7 @@
 		#nom{
 				font-size: 50px;
 			padding-right:30px;
-			padding-top:100px;
+			padding-top:120px;
 		margin-left: 20px;
 		}
 
