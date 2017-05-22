@@ -12,6 +12,7 @@
 .phone{display: none;}
 #phone2{display: none;}
 .iphone{display: none;}
+.iphone2{display: none;}
 	#back{
 		height:300px;
 		margin-right:auto;
@@ -237,6 +238,7 @@
 	.phone{display: none;}
 	#phone2{display: none;}
 	.iphone{display: none;}
+	.iphone2{display: none;}
 	#back{
 		height:250px;
 		margin-right:auto;
@@ -471,6 +473,7 @@
 	.phone{display: none;}
 	#phone2{display: none;}
 	.iphone{display: none;}
+	.iphone2{display: none;}
 	#nom{
 			font-size: 100px;
 		padding-right:30px;
@@ -684,6 +687,7 @@
 	.phone{display: none;}
 	#phone2{display: none;}
 	.iphone{display: none;}
+	.iphone2{display: none;}
 	#nom{
 			font-size: 100px;
 		padding-right:30px;
@@ -899,6 +903,7 @@
 	.phone{display: none;}
 	#phone2{display: none;}
 	.iphone{display: none;}
+	.iphone2{display: none;}
 	#nom{
 			font-size: 100px;
 		padding-right:30px;
@@ -1176,18 +1181,16 @@ margin-left: -40px;
 			aside {
 		display: none;
 			}
+			.iphon{display: none;}
 			nav li a {
-				width: 190px;
+				width: 60px;
 				margin-top: 20px;
-			    display: block;
 			}
-			nav a{
-				font-size: 30px;
-			}
+
 			nav li {
 			    float: left;
-					padding: 20px;
-					border-top: 2px solid #fff;
+					padding: 10px;
+
 			}
 			nav #index{border: none;}
 
@@ -1201,7 +1204,7 @@ margin-left: -40px;
 
 			.affiche2{
 				width:auto;
-				height:200px;
+				height:250px;
 			margin-top:40px;
 			margin-right:20px;
 			}
@@ -1214,7 +1217,12 @@ margin-left: -40px;
 			}
 
 
+.icon{
+	width: 32px;
+	height: 32px;
+margin-right: 10px;
 
+}
 			.ine{
 display: none;
 			}
@@ -1230,7 +1238,7 @@ display: none;
 			}
 			.iphone{
 width: auto;
-margin-top: 50px;
+margin-top: 30px;
 margin-left: -30px;
 font-size: 50px;
 font-family: 'Seaweed Script', cursive;
