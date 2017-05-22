@@ -1268,7 +1268,144 @@ color:#d7be70;
 				.float_left{
 				display: none; }
 	}
+	@media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-min-device-pixel-ratio: 3)
+	  and (orientation: landscape) {
+			#back{
+				height:200px;
+				margin-right:auto;
+				margin-left:auto;
+				margin-top:0;
+				background-image: url(photos/back2.png);
+					background-repeat: no-repeat;
+				background-size: contain;
+					box-shadow: 0 3px 12px rgba(0,0,0,0.5);
 
+			}
+
+			#nom{
+					font-size: 50px;
+				padding-right:30px;
+				padding-top:120px;
+			margin-left: 20px;
+			}
+
+			#wrapper{width:500px;}
+
+			.ines {display: none;}
+
+			.ins{display: none;}
+
+			#texte{
+			display: none;
+			}
+			.phone{
+			width: auto;
+			height: 250px;
+			margin-left: -40px;
+
+
+			}
+			#phone2{
+			width: 350px;
+			height: auto;
+			padding:25px;
+			margin: 20px;
+			margin-left: -50px;
+			color: rgb(0,0,0);
+			box-shadow: 0 0 5px #fff inset;
+			background: rgba(255, 255, 255, 0.5);
+			border-radius: 10px;
+			}
+
+			#text{
+			display: none;
+			}
+			.contact{
+				width: 350px;
+				height: auto;
+				padding:25px;
+				margin: 20px;
+				margin-left: -50px;
+					color: rgb(0,0,0);
+				box-shadow: 0 0 5px #fff inset;
+					background: rgba(255, 255, 255, 0.5);
+					border-radius: 10px;
+			}
+
+			footer {	width:300px;
+				margin-top:100px;}
+
+				aside {
+			display: none;
+				}
+				.iphon{display: none}
+
+				nav li a {
+					width: 90px;
+				}
+				nav a{
+					font-size: 30px;
+				}
+				nav li {
+						float: left;
+						padding: 30px;
+
+				}
+				nav #index{border: none;}
+
+
+				.affiche{
+					width:auto;
+					height:400px;
+				margin-top:40px;
+				margin-right:20px;
+				}
+
+				.affiche2{
+					width:auto;
+					height:250px;
+				margin-top:40px;
+				margin-right:20px;
+				}
+
+				.affiche1{
+					width:auto;
+					height:400px;
+				margin-top:40px;
+				margin-right:20px;
+				}
+
+
+			.icon{
+			width: 32px;
+			height: 32px;
+			margin-right: 10px;
+
+			}
+				.ine{
+			display: none;
+				}
+
+
+				.first{
+			display: none;
+				}
+
+				.mag{
+			display: none;
+
+				}
+				.iphone{
+			width: auto;
+			margin-top: 50px;
+			margin-left: 10px;
+			font-size: 50px;
+			font-family: 'Seaweed Script', cursive;
+			color:#d7be70;
+				}
+					.float_left{
+					display: none; }
+	}
 
 /******************************************************************design*/
 
