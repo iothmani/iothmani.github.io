@@ -13,6 +13,7 @@
 #phone2{display: none;}
 .iphone{display: none;}
 .iphone2{display: none;}
+.imenu{display: none;}
 	#back{
 		height:300px;
 		margin-right:auto;
@@ -239,6 +240,7 @@
 	#phone2{display: none;}
 	.iphone{display: none;}
 	.iphone2{display: none;}
+	.imenu{display: none;}
 	#back{
 		height:250px;
 		margin-right:auto;
@@ -474,6 +476,7 @@
 	#phone2{display: none;}
 	.iphone{display: none;}
 	.iphone2{display: none;}
+	.imenu{display: none;}
 	#nom{
 			font-size: 100px;
 		padding-right:30px;
@@ -688,6 +691,7 @@
 	#phone2{display: none;}
 	.iphone{display: none;}
 	.iphone2{display: none;}
+	.imenu{display: none;}
 	#nom{
 			font-size: 100px;
 		padding-right:30px;
@@ -904,6 +908,7 @@
 	#phone2{display: none;}
 	.iphone{display: none;}
 	.iphone2{display: none;}
+	.imenu{display: none;}
 	#nom{
 			font-size: 100px;
 		padding-right:30px;
@@ -1181,15 +1186,18 @@ margin-left: -40px;
 			aside {
 		display: none;
 			}
-			.iphon{display: none;}
-			nav li a {
-				width: 60px;
-				margin-top: 20px;
-			}
+			.iphon{display: none}
 
+			nav li a {
+				width: 90px;
+margin-top: 20px;
+			}
+			nav a{
+				font-size: 30px;
+			}
 			nav li {
 			    float: left;
-					padding: 10px;
+					padding: 30px;
 
 			}
 			nav #index{border: none;}
@@ -1238,7 +1246,7 @@ display: none;
 			}
 			.iphone{
 width: auto;
-margin-top: 30px;
+margin-top: 50px;
 margin-left: -30px;
 font-size: 50px;
 font-family: 'Seaweed Script', cursive;
