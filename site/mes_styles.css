@@ -1289,7 +1289,7 @@ color:#d7be70;
 			margin-left: 20px;
 			}
 
-			#wrapper{width:500px;}
+			#wrapper{width:520px;}
 
 			.ines {display: none;}
 
@@ -1300,20 +1300,19 @@ color:#d7be70;
 			}
 			.phone{
 			width: auto;
-			height: 250px;
-			margin-left: -40px;
-
+			height: 350px;
+			margin-left: 0px;
 
 			}
 			#phone2{
-			width: 350px;
+			width: 480px;
 			height: auto;
 			padding:25px;
 			margin: 20px;
-			margin-left: -50px;
+			margin-left: 0px;
 			color: rgb(0,0,0);
 			box-shadow: 0 0 5px #fff inset;
-			background: rgba(255, 255, 255, 0.5);
+			background: rgba(255, 255, 255, 0.4);
 			border-radius: 10px;
 			}
 
@@ -1321,19 +1320,17 @@ color:#d7be70;
 			display: none;
 			}
 			.contact{
-				width: 350px;
+				width: 500px;
 				height: auto;
 				padding:25px;
 				margin: 20px;
-				margin-left: -50px;
+				margin-left: 0px;
 					color: rgb(0,0,0);
 				box-shadow: 0 0 5px #fff inset;
-					background: rgba(255, 255, 255, 0.5);
+					background: rgba(255, 255, 255, 0.4);
 					border-radius: 10px;
 			}
 
-			footer {	width:300px;
-				margin-top:100px;}
 
 				aside {
 			display: none;
@@ -1349,30 +1346,31 @@ color:#d7be70;
 				nav li {
 						float: left;
 						padding: 30px;
-
 				}
 				nav #index{border: none;}
 
 
 				.affiche{
 					width:auto;
-					height:400px;
+					height:330px;
 				margin-top:40px;
-				margin-right:20px;
+				margin-left:40px;
+
 				}
 
 				.affiche2{
 					width:auto;
-					height:250px;
+					height:200px;
 				margin-top:40px;
-				margin-right:20px;
+				margin-right:40px;
 				}
 
 				.affiche1{
 					width:auto;
-					height:400px;
+					height:330px;
 				margin-top:40px;
-				margin-right:20px;
+				margin-left:40px;
+
 				}
 
 
@@ -1397,7 +1395,7 @@ color:#d7be70;
 				}
 				.iphone{
 			width: auto;
-			margin-top: 50px;
+			margin-top: 10px;
 			margin-left: 10px;
 			font-size: 50px;
 			font-family: 'Seaweed Script', cursive;
@@ -1405,6 +1403,9 @@ color:#d7be70;
 				}
 					.float_left{
 					display: none; }
+
+					footer {	width:500px;
+						margin-top:100px;}
 	}
 
 /******************************************************************design*/
