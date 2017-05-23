@@ -1275,7 +1275,7 @@ color:#d7be70;
 				margin-right:auto;
 				margin-left:auto;
 				margin-top:0;
-				background-image: url(photos/back2.png);
+				background-image: url(photos/bak.jpg);
 					background-repeat: no-repeat;
 				background-size: contain;
 					box-shadow: 0 3px 12px rgba(0,0,0,0.5);
@@ -1283,7 +1283,7 @@ color:#d7be70;
 			}
 
 			#nom{
-					font-size: 50px;
+					font-size: 80px;
 				padding-right:30px;
 				padding-top:120px;
 			margin-left: 20px;
