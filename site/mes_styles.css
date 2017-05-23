@@ -1441,13 +1441,13 @@ border: solid 10px #fff;
 		}
 		.phone{
 		width: auto;
-		height: 220px;
+		height: 200px;
 		margin-left: -40px;
 		border: solid 10px #fff;
 
 		}
 		#phone2{
-		width: 320px;
+		width: 270px;
 		height: auto;
 		padding:25px;
 		margin: 20px;
@@ -1462,7 +1462,7 @@ border: solid 10px #fff;
 		display: none;
 		}
 		.contact{
-			width: 320px;
+			width: 250px;
 			height: auto;
 			padding:25px;
 			margin: 20px;
