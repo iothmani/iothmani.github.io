@@ -1163,7 +1163,7 @@
 	width: auto;
 	height: 250px;
 margin-left: -40px;
-
+border: solid 10px #fff;
 
 }
 #phone2{
@@ -1302,7 +1302,7 @@ color:#d7be70;
 			width: auto;
 			height: 350px;
 			margin-left: 0px;
-
+border: solid 10px #fff;
 			}
 			#phone2{
 			width: 480px;
