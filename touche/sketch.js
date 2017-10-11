@@ -12,10 +12,15 @@ function setup() {
 
 function draw(){
  background(255);
- 
- beginShape();
- endShape(CLOSE);
+fill(0);
  for(var i=0;i<touches.length;i++){
-  ellipse(touches[i].x,touches[i].y,150,150);
+  ellipse(touches[i].x,touches[i].y,80,80);
   }
+  fill(200,200,155);
+   beginShape();
+   
+   for(var i=0;i<touches.length;i++){
+  vertex(touches[i].x,touches[i].y);
+  }
+  endShape(CLOSE);
 }
