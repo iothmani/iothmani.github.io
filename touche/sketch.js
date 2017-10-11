@@ -6,13 +6,13 @@ function setup() {
  createCanvas(windowWidth,windowHeight);
  rectMode(CENTER);
  stroke(0);
- noFill();
+ //noFill();
  strokeWeight(5);
 }
 
 function draw(){
  background(255);
-fill(255);
+ fill(255);
  textSize(40);
 
  for(var i=0;i<touches.length;i++){
