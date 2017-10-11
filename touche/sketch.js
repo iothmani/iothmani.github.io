@@ -24,7 +24,7 @@ fill(255);
   }
   endShape(CLOSE);
 textSize(40);
- text(touches[0].x, 100, 100);
- text(touches[0].y, 200, 100);
+text("Rx: " + touchesX, 100, 100);
+text("Ry: " + touchesY, 100, 150);
 }
 
