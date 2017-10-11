@@ -17,8 +17,7 @@ fill(255);
 
  for(var i=0;i<touches.length;i++){
   ellipse(touches[i].x,touches[i].y,80,80);
-text(touches[i].x,touches[i].y);
-
+text(touches[i].x,touches[i].y,20,20);
   }
   fill(200,155,155);
    beginShape();
