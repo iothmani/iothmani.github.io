@@ -24,6 +24,7 @@ fill(255);
    
    for(var i=0;i<touches.length;i++){
   vertex(touches[i].x,touches[i].y);
+  
    text("x="+ floor (touches[i].x),touches[i].x,touches[i].y);
     text("y="+ floor (touches[i].y),touches[i].y,touches[i].x);
   }
