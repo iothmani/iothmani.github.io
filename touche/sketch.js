@@ -23,10 +23,8 @@ fill(255);
   vertex(touches[i].x,touches[i].y);
   }
   endShape(CLOSE);
+textSize(40);
+text("Rx: " + rotationX, 100, 100);
+text("Ry: " + rotationY, 100, 150);
 }
-function touchStarted() {
- background(255);
- textSize(40);
- text(touches[0].x, 100, 100);
- text(touches[0].y, 200, 100);
-}
+
