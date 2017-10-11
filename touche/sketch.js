@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw(){
- background(255,200,200);
+ background(255);
 fill(255);
  textSize(40);
 
@@ -24,8 +24,8 @@ fill(255);
    
    for(var i=0;i<touches.length;i++){
   vertex(touches[i].x,touches[i].y);
-   text("x="+ floor (dummy[i].x),dummy[i].x,dummy[i].y);
-    text("y="+ floor (dummy[i].y),dummy[i].y,dummy[i].x);
+   text("x="+ floor (touches[i].x),touches[i].x,touches[i].y);
+    text("y="+ floor (touches[i].y),touches[i].y,touches[i].x);
   }
   endShape(CLOSE);
 
