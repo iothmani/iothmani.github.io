@@ -13,8 +13,12 @@ function setup() {
 function draw(){
  background(255);
 fill(255);
+ textSize(40);
+
  for(var i=0;i<touches.length;i++){
   ellipse(touches[i].x,touches[i].y,80,80);
+text(touches[i].x,touches[i].y);
+
   }
   fill(200,155,155);
    beginShape();
