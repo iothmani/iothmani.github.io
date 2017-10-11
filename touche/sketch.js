@@ -12,8 +12,9 @@ function setup() {
 
 function draw(){
  background(255);
- 
+ beginShape();
  for(var i=0;i<touches.length;i++){
-  rect(touches[i].x,touches[i].y,150,150);
+  vertex(touches[i].x,touches[i].y,150,150);
   }
+  endShape();
 }
