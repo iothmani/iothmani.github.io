@@ -17,13 +17,15 @@ fill(255);
 
  for(var i=0;i<touches.length;i++){
   ellipse(touches[i].x,touches[i].y,80,80);
-text("x="+touches[i].x);
+
   }
   fill(200,155,155);
    beginShape();
    
    for(var i=0;i<touches.length;i++){
   vertex(touches[i].x,touches[i].y);
+   text("x="+ floor (dummy[i].x),dummy[i].x,dummy[i].y);
+    text("y="+ floor (dummy[i].y),dummy[i].y,dummy[i].x);
   }
   endShape(CLOSE);
 
