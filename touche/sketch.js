@@ -25,10 +25,5 @@ fill(255);
   endShape(CLOSE);
 
 }
-function touchStarted() {
- background(255);
- textSize(40);
- text("Px"touches[0].x, 100, 100);
- text("Py"touches[0].y, 200, 100);
-}
+
 
