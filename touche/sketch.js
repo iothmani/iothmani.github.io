@@ -23,8 +23,6 @@ fill(255);
   vertex(touches[i].x,touches[i].y);
   }
   endShape(CLOSE);
-textSize(40);
-text("Rx: " + touchesX, 100, 100);
-text("Ry: " + touchesY, 100, 150);
+
 }
 
