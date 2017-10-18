@@ -1,5 +1,5 @@
-var x=500;
-var y=500;
+var x=0;
+var y=0;
 var v=0.1;
 var vx=0.01;
 var px=0;
