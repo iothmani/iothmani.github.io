@@ -41,13 +41,8 @@ function draw() {
 
 function drawBalle() {
   fill(60);
-  ellipse()
-  noStroke();
-  ellipse(posX, posY + 5, 60, 60);
-  fill(150);
+
   noStroke();
   ellipse(posX, posY, 60, 60);
-  fill(255);
-  noStroke();
-  ellipse(posX, posY + 10, 20, 20);
+
 }
