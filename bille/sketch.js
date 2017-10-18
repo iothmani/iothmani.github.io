@@ -7,6 +7,8 @@ var ax, ay;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  vx=0;
+  vy=0;
 }
 
 function draw() {
@@ -27,8 +29,13 @@ multiplier= 0.01;
 
   ax = rotationY * multiplier;
   ay = rotationX * multiplier;
+  
   vx += ax;
-  px += vx;
+  vy += ay;
+  
+  posX+=vx;
+  posY+=vy;
+  
 }
 
 function drawBalle() {
