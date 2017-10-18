@@ -1,22 +1,21 @@
 var posX;
 var posY;
 var multiplier;
-var vx, vy;
-var px, py;
-var ax, ay;
+var vY, vY;
+var aX, aY;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
- 
+
 }
 
 function draw() {
   clear();
   background(255);
   fill(0);
-  vx=0;
-  vy=0;
-  
+  vX = 0;
+  vY = 0;
+
   posX = windowWidth / 2;
   posY = windowHeight / 2;
 
@@ -27,17 +26,17 @@ function draw() {
   drawBalle();
 
   /**************************/
-multiplier= 0.06;
+  multiplier = 0.06;
 
-  ax = rotationY * multiplier;
-  ay = rotationX * multiplier;
-  
-  vx += ax;
-  vy += ay;
-  
-  posX+=vx;
-  posY+=vy;
-  
+  aX = rotationY * multiplier;
+  aY = rotationX * multiplier;
+
+  vX += aX;
+  vY += aY;
+
+  posX += vX;
+  posY += vY;
+
 }
 
 function drawBalle() {
