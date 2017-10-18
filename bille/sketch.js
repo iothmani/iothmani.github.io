@@ -31,7 +31,7 @@ function draw() {
 
   if((posY+Size/2)>=windowHeight)
   {vY=-vY*bounce;
-  posX= windowHeight-Size/2;
+  posX= windowWidth-Size/2;
   }
   
   else if((posX-Size/2)<=0)
@@ -40,7 +40,7 @@ function draw() {
   
   if((posX+Size/2)>=windowWidth)
   {vX=-vX*bounce;
-  posY= windowWidth-Size/2;
+  posY= windowHeight-Size/2;
   }
   
   else if((posY-Size/2)<=0)
