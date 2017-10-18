@@ -14,8 +14,8 @@ function draw() {
   background(255);
   fill(0);
   
-  vX = 0;
-  vY = 0;
+  vX = 10;
+  vY = 10;
 
   posX = windowWidth / 2;
   posY = windowHeight / 2;
@@ -23,7 +23,7 @@ function draw() {
   textSize(40);
   text("Rx: " + rotationX, 100, 100);
   text("Ry: " + rotationY, 100, 150);
-  text("version1",100,200);
+  text("version2",100,200);
 
   drawBalle();
 
