@@ -12,10 +12,10 @@ function setup() {
 function draw() {
   clear();
   background(255);
-  fill(0);
+ drawBalle();
   
-  vX = 10;
-  vY = 10;
+  vX = 0;
+  vY = 0;
 
   posX = windowWidth / 2;
   posY = windowHeight / 2;
@@ -25,7 +25,7 @@ function draw() {
   text("Ry: " + rotationY, 100, 150);
   text("version2",100,200);
 
-  drawBalle();
+  
 
   /**************************/
   multiplier = 0.06;
