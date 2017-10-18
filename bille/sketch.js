@@ -27,11 +27,11 @@ function draw() {
   textSize(40);
   text("Rx: " + rotationX, 100, 100);
   text("Ry: " + rotationY, 100, 150);
-  text("version9",100,200);
+  text("version10",100,200);
 
-  if((posY+Size/2)>=windowHeight)
+  if((posY+Size/2)>=windowWidth)
   {vY=-vY*bounce;
-  posY= windowHeight-Size/2;
+  posY= windowWidth-Size/2;
   }
   
   else if((posY-Size/2)<=0)
