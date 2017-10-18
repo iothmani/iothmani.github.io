@@ -27,17 +27,26 @@ function draw() {
   textSize(40);
   text("Rx: " + rotationX, 100, 100);
   text("Ry: " + rotationY, 100, 150);
-  text("version4",100,200);
+  text("version5",100,200);
 
   if((posY+Size/2)>=windowWidth)
-  {vX=-vX*bounce;
+  {vY=-vY*bounce;
   posX= windowWidth-Size/2;
+  }
+  
+  else if((posX-Size/2<=0))
+  {vX=-vX*bounce
+  posX=Size/2}
+  
+  if((posX+Size/2)>=windowWidth)
+  {vX=-vX*bounce;
+  posY= windowWidth-Size/2;
   }
   
   else if((posY-Size/2<=0))
   {vY=-vY*bounce
   posY=Size/2}
-
+  
   /**************************/
   multiplier = 0.01;
 
