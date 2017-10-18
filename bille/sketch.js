@@ -1,6 +1,6 @@
 var x=500;
 var y=500;
-
+var v=0.1;
 function setup() {
  createCanvas(windowWidth,windowHeight); 
 }
@@ -28,7 +28,7 @@ ellipse(x,y,60,60);
 ellipse(x,y+ 10,20,20);
 }
 function ballMove(){
-  ax = deviceRotationY * vMultiplier;
-  ay = deviceRotationX * vMultiplier;
+  ax = y * v;
+  ay = x * v;
   
 }
