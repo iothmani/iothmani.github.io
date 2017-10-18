@@ -1,7 +1,7 @@
 var posX;
 var posY;
 var multiplier;
-var vY, vY;
+var vY, vX;
 var aX, aY;
 
 function setup() {
@@ -13,6 +13,7 @@ function draw() {
   clear();
   background(255);
   fill(0);
+  
   vX = 0;
   vY = 0;
 
@@ -41,7 +42,6 @@ function draw() {
 
 function drawBalle() {
   fill(60);
-
   noStroke();
   ellipse(posX, posY, 60, 60);
 
