@@ -1,6 +1,8 @@
 var x=500;
 var y=500;
 var v=0.1;
+var vx=0.01;
+var px=0;
 function setup() {
  createCanvas(windowWidth,windowHeight); 
 }
@@ -13,7 +15,11 @@ function draw() {
  text("Ry: " + rotationY, 100, 150);
  
  drawBalle();
- ballMove();
+
+  ax = y * v;
+  ay = x * v;
+vx += ax;
+px += vx;
 }
 
 function drawBalle(){
@@ -27,8 +33,4 @@ ellipse(x,y,60,60);
   noStroke();
 ellipse(x,y+ 10,20,20);
 }
-function ballMove(){
-  ax = y * v;
-  ay = x * v;
-  
-}
+
