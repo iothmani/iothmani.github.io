@@ -23,6 +23,7 @@ function draw() {
   textSize(40);
   text("Rx: " + rotationX, 100, 100);
   text("Ry: " + rotationY, 100, 150);
+  text("version1",100,200);
 
   drawBalle();
 
