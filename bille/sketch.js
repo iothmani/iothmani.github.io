@@ -6,7 +6,11 @@ var aX, aY;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  vX = 0;
+  vY = 0;
 
+  posX = windowWidth / 2;
+  posY = windowHeight / 2;
 }
 
 function draw() {
@@ -14,16 +18,12 @@ function draw() {
   background(255);
  drawBalle();
   
-  vX = 0;
-  vY = 0;
 
-  posX = windowWidth / 2;
-  posY = windowHeight / 2;
 
   textSize(40);
   text("Rx: " + rotationX, 100, 100);
   text("Ry: " + rotationY, 100, 150);
-  text("version2",100,200);
+  text("version3",100,200);
 
   
 
