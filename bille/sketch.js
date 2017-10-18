@@ -10,7 +10,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   vX = 0;
   vY = 0;
-bounce=0.5;
+bounce=0.1;
 
   posX = windowWidth / 2;
   posY = windowHeight / 2;
@@ -34,16 +34,16 @@ function draw() {
   posX= windowWidth-Size/2;
   }
   
-  else if((posX-Size/2<=0))
+  else if(posX-Size/2<=0)
   {vX=-vX*bounce
   posX=Size/2}
   
-  if((posX+Size/2)>=windowWidth)
+  if((posX+Size/2)>=windowHeight)
   {vX=-vX*bounce;
-  posY= windowWidth-Size/2;
+  posY= windowHeight-Size/2;
   }
   
-  else if((posY-Size/2<=0))
+  else if(posY-Size/2<=0)
   {vY=-vY*bounce
   posY=Size/2}
   
