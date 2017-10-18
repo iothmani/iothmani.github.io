@@ -1,39 +1,45 @@
-var x=0;
-var y=0;
-var v=0.1;
-var vx=0.01;
-var px=0;
-var ax=0.2;
+var posX;
+var posY;
+var multiplier;
+var vx, vy;
+var px, py;
+var ax, ay;
+
 function setup() {
- createCanvas(windowWidth,windowHeight); 
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
   clear();
-fill(0);
- textSize(40);
- text("Rx: " + rotationX, 100, 100);
- text("Ry: " + rotationY, 100, 150);
- 
- drawBalle();
- 
-/**************************/
+  fill(0);
 
-ax = y * v;
-ay = x * v;
-vx += ax;
-px += vx;
+  posX = windowWidth / 2;
+  posY = windowHeight / 2;
+
+  textSize(40);
+  text("Rx: " + rotationX, 100, 100);
+  text("Ry: " + rotationY, 100, 150);
+
+  drawBalle();
+
+  /**************************/
+multiplier= 0.01;
+
+  ax = rotationY * multiplier;
+  ay = rotationX * multiplier;
+  vx += ax;
+  px += vx;
 }
 
-function drawBalle(){
+function drawBalle() {
   fill(60);
+  ellipse()
   noStroke();
-ellipse(x,y+ 5,60,60);
+  ellipse(posX, posY + 5, 60, 60);
   fill(150);
   noStroke();
-ellipse(x,y,60,60);
+  ellipse(posX, posY, 60, 60);
   fill(255);
   noStroke();
-ellipse(x,y+ 10,20,20);
+  ellipse(posX, posY + 10, 20, 20);
 }
-
