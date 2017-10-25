@@ -23,11 +23,11 @@ function draw() {
  drawBalle();
   
 
-
-  textSize(40);
-  text("Rx: " + rotationX, 100, 100);
-  text("Ry: " + rotationY, 100, 150);
-  text("version15",100,200);
+fill(0);
+  textSize(20);
+  text("version16",100,200);
+  text("x="+ floor (rotation.x),rotation[i].x,rotation[i].y);
+  text("y="+ floor (rotation.y),rotation[i].y,rotation[i].x);
   
 /******** rebond coté *******/
   if((posY+Size/2)>=windowHeight)
@@ -71,11 +71,11 @@ function draw() {
 function drawBalle() {
   fill(60);
   noStroke();
-  ellipse(posX, posY, Size, 60);
-fill(60);
+  ellipse(posX, posY, 60);
+fill(150);
   noStroke();
-  ellipse(posX, posY+5, Size, 60);
-  fill(60);
+  ellipse(posX, posY+5, 60);
+  fill(255);
   noStroke();
-  ellipse(posX, posY+10, Size, 30);
+  ellipse(posX+5, posY+8, 20);
 }
