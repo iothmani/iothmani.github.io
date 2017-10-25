@@ -5,7 +5,7 @@ var vY, vX;
 var aX, aY;
 var Size;
 var bounce;
-
+var value=0;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   vX = 0;
@@ -14,16 +14,16 @@ bounce=0.1;
 
   posX = windowWidth / 2;
   posY = windowHeight / 2;
-  Size=60;
+  Size=80;
 }
 
 function draw() {
   clear();
-  background(255);
+ 
  drawBalle();
   
 
-
+fill(0);
   textSize(40);
   text("Rx: " + rotationX, 100, 100);
   text("Ry: " + rotationY, 100, 150);
@@ -71,11 +71,19 @@ function draw() {
 function drawBalle() {
   fill(60);
   noStroke();
-  ellipse(posX, posY, Size, 60);
+  ellipse(posX, posY, Size, 80);
 fill(150);
   noStroke();
-  ellipse(posX, posY+5, Size, 60);
+  ellipse(posX, posY+5, Size, 80);
   fill(255);
   noStroke();
-  ellipse(posX, posY+4, Size, 40);
+  ellipse(posX+10, posY+4, 20, 20);
+}
+
+function deviceShaken() {
+   fill(value);
+  value = value + 5;
+  if (value > 255) {
+    value = 0;
+  }
 }
