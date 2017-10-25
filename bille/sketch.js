@@ -25,8 +25,8 @@ drawBalle();
 fill(0);
   textSize(40);
   text("Rx: " + rotationX, posX+37, posY);
-  text("Ry: " + rotationY, posY+160, posX-100);
-  text("version17",200,200);
+  text("Ry: " + rotationY, posX+37, posY);
+  text("version19",200,200);
   
 /******** rebond coté *******/
   if((posY+Size/2)>=windowHeight)
