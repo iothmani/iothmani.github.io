@@ -25,7 +25,7 @@ drawBalle();
 fill(0);
   textSize(40);
   text("Rx: " + rotationX, posX+37, posY);
-  text("Ry: " + rotationY, posX+37, posY);
+  text("Ry: " + rotationY, posX+37, posY+40);
   text("version19",200,200);
   
 /******** rebond coté *******/
