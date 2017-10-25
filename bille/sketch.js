@@ -18,16 +18,15 @@ bounce=0.1;
 }
 
 function draw() {
-  clear();
- 
- drawBalle();
+clear();
+drawBalle();
   
 
 fill(0);
   textSize(40);
-  text("Rx: " + rotationX, 100, 100);
-  text("Ry: " + rotationY, 100, 150);
-  text("version15",100,200);
+  text("Rx: " + rotationX, posX, posY);
+  text("Ry: " + rotationY, posY, posX);
+  text("version17",100,200);
   
 /******** rebond coté *******/
   if((posY+Size/2)>=windowHeight)
@@ -69,6 +68,7 @@ fill(0);
 }
 
 function drawBalle() {
+  
   fill(60);
   noStroke();
   ellipse(posX, posY, Size, 80);
@@ -78,12 +78,6 @@ fill(150);
   fill(255);
   noStroke();
   ellipse(posX+10, posY+4, 20, 20);
+  
 }
 
-function deviceShaken() {
-   fill(value);
-  value = value + 5;
-  if (value > 255) {
-    value = 0;
-  }
-}
