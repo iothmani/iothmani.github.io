@@ -5,7 +5,7 @@ var vY, vX;
 var aX, aY;
 var Size;
 var bounce;
-var value=0;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   vX = 0;
@@ -24,9 +24,9 @@ drawBalle();
 
 fill(0);
   textSize(40);
-  text("Rx: " + rotationX, posX, posY);
-  text("Ry: " + rotationY, posY, posX);
-  text("version17",100,200);
+  text("Rx: " + rotationX, posX+37, posY);
+  text("Ry: " + rotationY, posY+160, posX-100);
+  text("version17",200,200);
   
 /******** rebond coté *******/
   if((posY+Size/2)>=windowHeight)
