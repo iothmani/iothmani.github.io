@@ -20,13 +20,14 @@ function draw(){
 
   }
   fill(200,155,155);
+  noStroke();
    beginShape();
    
    for(var i=0;i<touches.length;i++){
   vertex(touches[i].x,touches[i].y);
   
-   text("x="+ floor (touches[i].x),touches[i].x,touches[i].y);
-    text("y="+ floor (touches[i].y),touches[i].y,touches[i].x);
+   text("x="+ floor (touches[i].x),touches[i].x + 20,touches[i].y);
+    text("y="+ floor (touches[i].y),touches[i].x + 20,touches[i].y);
   }
   endShape(CLOSE);
 
